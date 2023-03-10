@@ -2,9 +2,14 @@ body {
     background-color: antiquewhite;
 }
 
+.title {
+    color: black !important;
+}
+
 .container {
     max-width: 1440px;
     margin: auto;
+    color: blue;
 }
 
 .line {
@@ -31,5 +36,25 @@ body {
 .meme {
     max-width: 500px;
     height: auto;
-    margin: 0 0 24px 25%;
+    margin: 0 0 24px 30%;
+}
+
+.meme2 {
+    display: none;
+}
+
+.meme3 {
+    display: none;
+}
+
+.meme4 {
+    display: none;
+}
+
+.meme5 {
+    display: none;
+}
+
+.container:hover {
+    color: black;
 }
