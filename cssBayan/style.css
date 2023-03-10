@@ -1,0 +1,35 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+}
+
+.meme-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.cross {
+    width: 70px;
+    height: auto;
+}
+
+.meme {
+    max-width: 500px;
+    height: auto;
+    margin: 0 0 24px 25%;
+}
