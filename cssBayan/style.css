@@ -15,6 +15,7 @@ body {
 
 .item {
     position: relative;
+    cursor: pointer;
 }
 
 .line {
