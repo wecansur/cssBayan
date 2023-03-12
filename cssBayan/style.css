@@ -39,6 +39,11 @@ body {
     transition: .5s;
 }
 
+.item:hover .label-container .cross {
+    transform: rotate(45deg);
+    transition: .3s;
+}
+
 .meme-container {
     display: flex;
     width: 100%;
@@ -56,6 +61,10 @@ body {
 
     width: 70px;
     height: auto;
+}
+
+.cross1 {
+    transform: rotate(45deg);
 }
 
 .meme {
