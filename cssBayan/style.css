@@ -18,9 +18,17 @@ body {
     background-color: gray;
 }
 
-.meme-container {
+.label-container {
     display: flex;
     justify-content: space-between;
+}
+
+.label-container:hover + .meme-container {
+    display: block;
+}
+
+.meme-container:hover {
+    display: block;
 }
 
 .meme-title {
@@ -29,6 +37,8 @@ body {
 }
 
 .cross {
+    display: none;
+
     width: 70px;
     height: auto;
 }
@@ -39,22 +49,26 @@ body {
     margin: 0 0 24px 30%;
 }
 
-.meme2 {
+.meme-container2 {
     display: none;
 }
 
-.meme3 {
+.meme-container3 {
     display: none;
 }
 
-.meme4 {
+.meme-container4 {
     display: none;
 }
 
-.meme5 {
+.meme-container5 {
     display: none;
 }
 
 .container:hover {
     color: black;
+}
+
+.container:hover .item .label-container .cross {
+    display: block;
 }
