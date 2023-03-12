@@ -45,6 +45,23 @@ body {
     transition: .3s;
 }
 
+.checkbox {
+    cursor: pointer;
+    appearance: none;
+}
+
+.checkbox:checked + .item .meme-container {
+    top: 50px;
+}
+
+.checkbox:checked + .item {
+    height: 377px;
+}
+
+.checkbox:checked + .item .label-container .cross {
+    transform: rotate(45deg);
+}
+
 .meme-container {
     display: flex;
     width: 100%;
@@ -55,6 +72,7 @@ body {
 .meme-title {
     font-size: 1.5em;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .cross {
@@ -64,21 +82,21 @@ body {
     height: auto;
 }
 
-.cross1 {
+/*.cross1 {
     transform: rotate(45deg);
-}
+}*/
 
 .meme {
     max-width: 300px;
     height: auto;
 }
 
-.meme-container2 {
+.meme-container {
     position: absolute;
     top: -10000px;
 }
 
-.meme-container3 {
+/*.meme-container3 {
     position: absolute;
     top: -10000px;
 }
@@ -91,7 +109,7 @@ body {
 .meme-container5 {
     position: absolute;
     top: -10000px;
-}
+}*/
 
 .container:hover {
     color: black;
